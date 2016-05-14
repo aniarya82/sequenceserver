@@ -1,4 +1,7 @@
 module SequenceServer
+  # To signal error when Job not found
+  class KeyError < KeyError
+  end
   module BLAST
     # To signal error in query sequence or options.
     #
